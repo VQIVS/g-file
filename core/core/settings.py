@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'services.accounts',
     'services.bank_accounts',
-    'services..discounts',
+    'services.discounts',
     'services.messaging',
     'services.orders',
     'services.payments',
@@ -133,7 +133,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Custom User Model
-AUTH_USER_MODEL = 'services.accounts.User'
+AUTH_USER_MODEL = 'accounts.User'
 
 # REST Framework
 REST_FRAMEWORK = {
